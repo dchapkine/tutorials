@@ -160,13 +160,6 @@ kubectl apply -f nodeingress.yaml
 ```
 
 
-## Links
-
-https://cert-manager.io/docs/usage/ingress/
-
-
-
-
 ## Uninstall instructions
 
 uninstall cert manager
@@ -183,7 +176,18 @@ helm uninstall ingress-nginx --namespace ingress-nginx
 kubectl delete ns ingress-nginx
 ```
 
+
+
+## Links
+
+- https://github.com/kubernetes/ingress-nginx
+- https://cert-manager.io/docs/usage/ingress/
+- https://marketplace.digitalocean.com/apps/nginx-ingress-controller
+- https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers
+
+
+
 ## Tested
 
-Tested on Digital Ocean K8S oct 2022
+Tested on Digital Ocean K8S oct 2022, don't use 1 click apps they are outdated and won't work
 
