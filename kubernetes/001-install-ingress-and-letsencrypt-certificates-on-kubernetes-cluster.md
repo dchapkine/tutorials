@@ -42,7 +42,7 @@ ingress-nginx-controller   LoadBalancer   10.20.30.40   123.124.125.126   80:314
 
 Before we configure https, we can check if ingress is working properly by applying this config
 
-Make sure to replace `test.yourdomain.com` by your domain
+Make sure to replace `__YOUR_APP_DOMAIN__` by your domain
 
 kubectl apply -f nodeingress.yml
 
@@ -55,7 +55,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: test.yourdomain.com
+    - host: __YOUR_APP_DOMAIN__
       http:
         paths:
           - path: /
@@ -124,7 +124,7 @@ An Issuer or ClusterIssuer identifies which Certificate Authority cert-manager w
 
 ## Update ingress to use TLS and cert manager
 
-Make sure to replace `test.yourdomain.com` by your domain
+Make sure to replace `__YOUR_APP_DOMAIN__` by your domain
 
 
 nodeingress.yaml
@@ -139,7 +139,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: test.yourdomain.com
+    - host: __YOUR_APP_DOMAIN__
       http:
         paths:
           - path: /
@@ -151,7 +151,7 @@ spec:
                   number: 80
   tls:
     - hosts:
-      - test.yourdomain.com
+      - __YOUR_APP_DOMAIN__
       secretName: ingress-nodetest-cert
 ```
 
