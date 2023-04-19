@@ -1,0 +1,16 @@
+{
+  "name": "ml_llama_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@llama-node/core": "^0.0.27",
+    "@llama-node/llama-cpp": "^0.0.27",
+    "llama-node": "^0.0.27"
+  }
+}
