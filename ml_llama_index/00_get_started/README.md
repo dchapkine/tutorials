@@ -1,4 +1,11 @@
 
+# Get started with llama index
+
+This projects shows how to index your own data using openai LLM api & index llama python package to later ask questions about your own data in a same way you would ask question about public data that gpt was trained on.
+
+This is nothing more than a hello world for index llama.
+
+
 # Install
 
 ```

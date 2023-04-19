@@ -1,4 +1,6 @@
 
+# Get started with llama.cpp
+
 Use llama.cpp to run a gpt-like large language model queries 100% offline on relatively modest hardware.
 
 This is nothing more than a convinient hello world to get started using llama.cpp
@@ -22,7 +24,7 @@ If you use another model, make sure you change the reference in `index.mjs`
 # Run
 
 ```
-node index.mjs "what is the meaning of life, don't answer 42"
+node index.mjs "why the sky is blue"
 
 ***
 
