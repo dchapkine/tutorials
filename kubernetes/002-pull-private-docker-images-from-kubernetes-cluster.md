@@ -90,7 +90,6 @@ spec:
   ingressClassName: nginx
   rules:
     - host: __YOUR_APP_DOMAIN__
-    - 
       http:
         paths:
           - path: /
