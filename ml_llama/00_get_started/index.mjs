@@ -45,7 +45,8 @@ const prompt = `### Human answer the question below:
 ${question}
 -------------
 
-### Assistant:`;
+### Assistant:
+`;
 
 llama.createCompletion(
     {
